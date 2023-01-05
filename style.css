@@ -1,0 +1,389 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    flex-wrap: wrap;
+}
+@media (max-width:768px){
+    .body{
+        flex-wrap: wrap;
+    }
+}
+.nav{
+    background-color: rgb(212, 212, 247);
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    font-size: large;
+    flex-wrap: wrap;
+}
+
+.nav ul i {
+    color: #fff;
+    background-color: rgb(36, 36, 105);
+    padding: 6px 8px;
+    border-radius: 30px;
+}
+.dropdwn{
+    display: flex;
+}
+
+.dropdwn select{
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin-right: 15px;
+}
+
+.shop{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: larger;
+}
+
+.shop p {
+    margin-top: 20px ;
+}
+
+
+.order{
+    display: flex;
+    margin-top:18px ;
+}
+.order i{
+    margin-top: 4px;
+    padding-right: 10px;
+}
+
+.color {
+    border: none;
+    color: #fff;
+    background-color: rgb(47, 47, 110);
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+.color:hover{
+    background-color: yellow;
+}
+
+
+
+/*     >------<     */
+
+
+.snav{
+    display: flex;
+    background-color: rgb(21, 21, 109);
+    justify-content: space-around;
+    
+    
+}
+.snav ul li{
+    display: inline-block;
+    border:none;
+    padding: 20px;
+    text-transform: uppercase;
+   
+    
+}
+.snav ul li:hover{
+    background-color: yellow;
+    
+}
+
+.snav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+form {
+    margin-top:10px;
+}
+form input{
+    padding: 9px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+form  button {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+}  
+.container{
+    background-image: url(banner.jpg);
+    /* height: 400px; */
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.bano{
+    color: rgb(255, 191, 0);
+    font-size: 100px;
+    padding-left: 80px;
+}
+.ban{
+    color: rgb(10, 10, 74);
+    font-size: 120px;
+}
+.ban1{
+    font-size: 50px;
+    padding-left: 80px;
+}
+.ban2{
+    border: none;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding: 15px 40px;
+    color: #fff;
+
+    background-color: rgba(89, 89, 239, 0.67);
+}
+.ban2:hover{
+    background-color: rgb(255, 166, 0);
+}
+.cimg{
+    /* background-color: aqua; */
+    size: 10px;
+}
+.images{
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+ 
+}
+.images img{
+    height: 17vh;
+    width: 50%;
+}
+.cl{
+    background-color: #ffc107;
+    width: 50%;
+    padding-top: 30px;
+}
+.ca{
+    background-color: #007bff;
+    width: 50%;
+    height: 30vh;
+    padding-top: 30px;
+}
+.sec{
+    background-image: url(./product_bg.jpg);
+    width: 100%;
+}
+.hcontent{
+    font-size: 30px;
+    margin: 90px 70px;
+
+}
+.underline{
+    background-color: #ffc107;
+    height: 1vh;
+    width: 80%;
+}
+.productBox{
+    display: flex;
+    justify-content: center;
+    
+}
+.productBox div img{
+    background-color: rgb(235, 232, 232);
+    margin-left:40px;
+ height: 40vh;
+ width: 70%;
+}
+.productBox div p{
+    text-align: center;
+    font-size: 12px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+
+    border: none;
+}
+.but button{
+    width: 13%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(18, 18, 74);
+    color: #fff;
+}
+.but button:hover{
+    background-color: #ffc107;
+
+}
+/*        */
+.hed{
+    margin: 90px;
+    font-size: 30px;
+}
+.line{
+    border: 2px solid #ffc107;
+}
+
+/*  */
+.block{
+    display: flex;
+    justify-content: center;
+}
+.li{
+    border: 2px solid #ffc107;
+    width: 10%;
+}
+.para{
+    display: center;
+    background-color: #ffc107;
+
+}
+.like{
+    float: right; 
+
+}
+.endbox{
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.no input{
+    padding: 10px 43px;
+    border: 1px solid rgb(10, 10, 74);
+    border-radius: 20px;
+}
+.subcribe{
+    float: right;
+    margin-right: 180px;
+    width: 10%;
+    border-radius: 30px;
+    border: none;
+    background-color: #0c2b4d;
+    color: aliceblue;
+    width: 10%;
+    height: 30px;
+}
+.subcribe:hover{
+    background-color: #ffc107;
+}
+.endsec{
+    display: flex;
+    justify-content: center;
+    /* background-color: #007bff; */
+    margin-top: 60px;
+    position: relative;
+    margin: 20px;
+    top: 20px;
+    height: 30vh;
+    left: 80px;
+
+}
+.classend1{
+    padding: 70px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    position: absolute;
+    /* top: 30px; */
+    /* left: 10px; */
+    background-color: rgb(255, 255, 255);
+    left: 1px;
+}
+.classend2{
+    padding: 70px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    position: absolute;
+    /* top: 30px; */
+    /* left: 10px; */
+    background-color: #fff;
+    /* bottom: 0.3px; */
+}
+.classend3{
+    padding: 70px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    position: absolute;
+    /* top: 30px; */
+    /* left: 10px; */
+    background-color: #fff;
+    right: 1px;
+}
+.classsend img{
+    background-color: rgb(206, 34, 34);
+}
+.endpage{
+    background-color: #114071;
+    color: #fff;
+    display: flex;
+    padding: 80px;
+}
+.endpage h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.png h1 p{
+    font-size: 1px;
+    color: #ffc107;
+}
+.endpage div{
+    /* border: 2px solid black; */
+    padding-left: 0px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+.la{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px; 
+    text-decoration: none;
+}
+.la a{
+    text-decoration: none;
+    color: #000000;
+}
+.lai:hover{
+    color: #ffc107;
+}
+
+/* responsive */
+
+@media screen and(min-width: 643px)
+{
+   
+}
+@media screen and (max-width: 800px)
+{
+    
+    .snav{
+        display: flex;
+        flex-direction: column;
+    }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .images{
+    display: inline-block;
+    text-align: center;
+  }
+  .images .cl{
+    
+width: 100%;}
+
+
+  .images .ca{
+width: 100%;}
+
+}
